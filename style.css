@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+header{
+    height: 33dvh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 4dvw;
+    min-width: 300px;
+}
+
+header p{
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+section{
+    padding: 40px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: grey;
+    color: white;
+}
+
+section p{
+    line-height: 30px;
+}
+
+section.imagem p{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+}
