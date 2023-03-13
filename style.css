@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'cordel';
+    src: url(MeriendaOne-Regular.ttf);
+}
+
+:root{
+    --fontepadrão: Verdana, Geneva, Tahoma, sans-serif;
+    --fontecordel: 'cordel', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -23,7 +33,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fontepadrão);
 }
 
 header h1{
@@ -37,8 +47,17 @@ header p{
     font-size: 1.2em;
 }
 
+main{
+    font-family: var(--fontecordel);
+    font-size: 2dvw;
+}
+
+main p{
+    display: block;
+}
+
 section{
-    padding: 40px;
+    padding: 60px 20px 60px 20px;
 }
 
 section.normal{
@@ -51,11 +70,11 @@ section.imagem{
 }
 
 section p{
-    line-height: 30px;
+    line-height: 50px;
 }
 
 section.imagem p{
-    width: 200px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.288);
     padding: 10px;
 }
